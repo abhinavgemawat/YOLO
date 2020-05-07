@@ -1,0 +1,62 @@
+<resources>
+    <string-array name="pref_detector_list_titles">
+        <item>None</item>
+        <item>TinyYoloTF</item>
+        <item>YoloHTTP</item>
+    </string-array>
+    <string-array name="pref_detector_list_values">
+        <item>DetectorOff</item>
+        <item>TinyYoloTF</item>
+        <item>YoloHTTP</item>
+    </string-array>
+
+    <string-array name="pref_neural_priority_list_titles">
+        <item>Background (10)</item>
+        <item>Normal (0)</item>
+        <item>Very low priority (19)</item>
+	<item>Urgent display (-8)</item>
+    </string-array>
+    <string-array name="pref_neural_priority_list_values">
+        <item>10</item>
+        <item>0</item>
+        <item>19</item>
+	<item>-8</item>
+    </string-array>
+
+    <string-array name="pref_tracker_list_titles">
+        <item>None</item>
+        <item>Lukas Kanade</item>
+    </string-array>
+    <string-array name="pref_tracker_list_values">
+        <item>TrackingOff</item>
+        <item>LukasKanade</item>
+    </string-array>
+
+    <string-array name="pref_jpeg_list_titles">
+        <item>25</item>
+        <item>50</item>
+        <item>75</item>
+        <item>100</item>
+        <item>No compression</item>
+    </string-array>
+
+    <string-array name="pref_jpeg_list_values">
+        <item>25</item>
+        <item>50</item>
+        <item>75</item>
+        <item>100</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="pref_server_list_titles">
+	    <item>lily.scss.tcd.ie:60000</item>
+        <item>lily.scss.tcd.ie:60001</item>
+        <item>lily.scss.tcd.ie:60006</item>
+        <item>lily.scss.tcd.ie:60007</item>
+        <item>oak.scss.tcd.ie:8000</item>
+        <item>pine.scss.tcd.ie:8000</item>
+        <item>10.220.3.233:8000</item>
+        <item>192.168.1.253:8000</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,120 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/src/main/jni/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/Users/abhinavgemawat/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/abhinavgemawat/Desktop/fyp\\ files/EdgeApp-newest/android_client/app/.cxx/cmake/debug/arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cc" ],
+	"libraries" : 
+	{
+		"object_tracker-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "object_tracker",
+			"buildCommand" : "/Users/abhinavgemawat/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/abhinavgemawat/Desktop/fyp\\ files/EdgeApp-newest/android_client/app/.cxx/cmake/debug/arm64-v8a --target object_tracker",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/Users/abhinavgemawat/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/abhinavgemawat/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dobject_tracker_EXPORTS -I\"/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/src/main/jni/object_tracker\" -I\"/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/src/main/jni/PRIVATE\" -I\"/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/src/main/jni\"  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -Ofast -ftree-vectorize -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -Ofast -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/src/main/jni/object_tracking/frame_pair.cc",
+					"workingDirectory" : "/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/.cxx/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/Users/abhinavgemawat/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/abhinavgemawat/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dobject_tracker_EXPORTS -I\"/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/src/main/jni/object_tracker\" -I\"/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/src/main/jni/PRIVATE\" -I\"/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/src/main/jni\"  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -Ofast -ftree-vectorize -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -Ofast -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/src/main/jni/object_tracking/image_neon.cc",
+					"workingDirectory" : "/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/.cxx/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/Users/abhinavgemawat/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/abhinavgemawat/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dobject_tracker_EXPORTS -I\"/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/src/main/jni/object_tracker\" -I\"/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/src/main/jni/PRIVATE\" -I\"/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/src/main/jni\"  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -Ofast -ftree-vectorize -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -Ofast -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/src/main/jni/object_tracking/keypoint_detector.cc",
+					"workingDirectory" : "/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/.cxx/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/Users/abhinavgemawat/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/abhinavgemawat/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dobject_tracker_EXPORTS -I\"/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/src/main/jni/object_tracker\" -I\"/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/src/main/jni/PRIVATE\" -I\"/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/src/main/jni\"  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -Ofast -ftree-vectorize -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -Ofast -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/src/main/jni/object_tracking/logging.cc",
+					"workingDirectory" : "/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/.cxx/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/Users/abhinavgemawat/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/abhinavgemawat/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dobject_tracker_EXPORTS -I\"/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/src/main/jni/object_tracker\" -I\"/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/src/main/jni/PRIVATE\" -I\"/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/src/main/jni\"  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -Ofast -ftree-vectorize -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -Ofast -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/src/main/jni/object_tracking/object_detector.cc",
+					"workingDirectory" : "/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/.cxx/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/Users/abhinavgemawat/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/abhinavgemawat/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dobject_tracker_EXPORTS -I\"/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/src/main/jni/object_tracker\" -I\"/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/src/main/jni/PRIVATE\" -I\"/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/src/main/jni\"  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -Ofast -ftree-vectorize -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -Ofast -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/src/main/jni/object_tracking/object_tracker.cc",
+					"workingDirectory" : "/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/.cxx/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/Users/abhinavgemawat/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/abhinavgemawat/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dobject_tracker_EXPORTS -I\"/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/src/main/jni/object_tracker\" -I\"/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/src/main/jni/PRIVATE\" -I\"/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/src/main/jni\"  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -Ofast -ftree-vectorize -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -Ofast -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/src/main/jni/object_tracking/object_tracker_jni.cc",
+					"workingDirectory" : "/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/.cxx/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/Users/abhinavgemawat/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/abhinavgemawat/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dobject_tracker_EXPORTS -I\"/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/src/main/jni/object_tracker\" -I\"/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/src/main/jni/PRIVATE\" -I\"/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/src/main/jni\"  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -Ofast -ftree-vectorize -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -Ofast -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/src/main/jni/object_tracking/optical_flow.cc",
+					"workingDirectory" : "/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/.cxx/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/Users/abhinavgemawat/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/abhinavgemawat/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dobject_tracker_EXPORTS -I\"/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/src/main/jni/object_tracker\" -I\"/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/src/main/jni/PRIVATE\" -I\"/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/src/main/jni\"  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -Ofast -ftree-vectorize -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -Ofast -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/src/main/jni/object_tracking/time_log.cc",
+					"workingDirectory" : "/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/.cxx/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/Users/abhinavgemawat/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/abhinavgemawat/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dobject_tracker_EXPORTS -I\"/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/src/main/jni/object_tracker\" -I\"/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/src/main/jni/PRIVATE\" -I\"/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/src/main/jni\"  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -Ofast -ftree-vectorize -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -Ofast -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/src/main/jni/object_tracking/tracked_object.cc",
+					"workingDirectory" : "/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/.cxx/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/Users/abhinavgemawat/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/abhinavgemawat/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dobject_tracker_EXPORTS -I\"/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/src/main/jni/object_tracker\" -I\"/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/src/main/jni/PRIVATE\" -I\"/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/src/main/jni\"  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -Ofast -ftree-vectorize -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -Ofast -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/src/main/jni/object_tracking/utils_neon.cc",
+					"workingDirectory" : "/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/.cxx/cmake/debug/arm64-v8a"
+				}
+			],
+			"output" : "/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/build/intermediates/cmake/debug/obj/arm64-v8a/libobject_tracker.so",
+			"toolchain" : "2050972805209588207"
+		},
+		"udpsocket-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "udpsocket",
+			"buildCommand" : "/Users/abhinavgemawat/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/abhinavgemawat/Desktop/fyp\\ files/EdgeApp-newest/android_client/app/.cxx/cmake/debug/arm64-v8a --target udpsocket",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/Users/abhinavgemawat/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/abhinavgemawat/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dudpsocket_EXPORTS -I\"/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/src/main/jni/object_tracker\" -I\"/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/src/main/jni/PRIVATE\" -I\"/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/src/main/jni\"  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/src/main/jni/udp_socket_jni.c",
+					"workingDirectory" : "/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/.cxx/cmake/debug/arm64-v8a"
+				}
+			],
+			"output" : "/Users/abhinavgemawat/Desktop/fyp files/EdgeApp-newest/android_client/app/build/intermediates/cmake/debug/obj/arm64-v8a/libudpsocket.so",
+			"toolchain" : "2050972805209588207"
+		}
+	},
+	"toolchains" : 
+	{
+		"2050972805209588207" : 
+		{
+			"cCompilerExecutable" : "/Users/abhinavgemawat/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/abhinavgemawat/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

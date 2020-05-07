@@ -1,0 +1,66 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListPreference
+        android:defaultValue="TrackingOff"
+        android:entries="@array/pref_tracker_list_titles"
+        android:entryValues="@array/pref_tracker_list_values"
+        android:key="tracker_mode"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="Tracker" />
+
+    <ListPreference
+        android:defaultValue="TinyYoloTF"
+        android:entries="@array/pref_detector_list_titles"
+        android:entryValues="@array/pref_detector_list_values"
+        android:key="detector_mode"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="Detector" />
+
+    <ListPreference
+        android:defaultValue="10"
+        android:entries="@array/pref_neural_priority_list_titles"
+        android:entryValues="@array/pref_neural_priority_list_values"
+        android:key="neural_priority"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="Neural Priority" />
+
+    <ListPreference
+        android:defaultValue="75"
+        android:entries="@array/pref_jpeg_list_titles"
+        android:entryValues="@array/pref_jpeg_list_values"
+        android:key="jpeg_quality"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="JPEG Quality" />
+
+    <ListPreference
+        android:defaultValue="lily.scss.tcd.ie:60007"
+        android:entries="@array/pref_server_list_titles"
+        android:entryValues="@array/pref_server_list_titles"
+        android:key="server"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="YoloHTTP Server" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="udp"
+        android:title="Use UDP" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="config_socket"
+        android:title="Config Via Socket" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="use_camera"
+        android:title="Enable Camera" />
+
+</PreferenceScreen>
